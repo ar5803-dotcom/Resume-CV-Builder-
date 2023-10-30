@@ -1,0 +1,215 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    text-decoration: none;
+    font-size: 24px;
+    color: #333;
+}
+
+.navbar-brand-icon {
+    max-width: 30px;
+    vertical-align: middle;
+}
+
+/* Form Section Styles */
+.cv-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cv-form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-elem {
+    flex: 1;
+    margin-right: 10px;
+    margin-bottom: 10%;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Preview Section Styles */
+.print_area {
+    display: none;
+}
+
+.preview-cnt {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.preview-cnt-l {
+    flex: 1;
+    padding: 20px;
+    background-color: #3CB371; /* Change the color to your preference */
+    color: #fff;
+}
+
+.preview-cnt-r {
+    flex: 1;
+    padding: 20px;
+}
+
+.preview-image {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.preview-item {
+    margin-bottom: 10px;
+}
+
+.preview-blk-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Repeater Styles (Achievements, Experience, Education, Projects, Skills) */
+.repeater {
+    margin-top: 10px;
+}
+
+.repeater-remove-btn {
+    background-color: #f44336; /* Red color for remove buttons */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.repeater-add-btn {
+    background-color: #4CAF50; /* Green color for add buttons */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Add more CSS for specific elements as needed */
+
+/* Sample Button for Print */
+.print-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Media Queries for Responsiveness (customize as needed) */
+@media (max-width: 768px) {
+    .cv-form-row {
+        flex-direction: column;
+    }
+}
+/* Navbar Background Image */
+.navbar {
+    background: url('path-to-your-navbar-background-image.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+/* Form Section Background Image */
+#about-sc {
+    background: url('path-to-your-about-section-background-image.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+/* Preview Section Background Image */
+#print_area {
+    background: url('path-to-your-preview-section-background-image.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+/* Achievements Section Background Image */
+.achievements-items {
+    background: url('path-to-your-achievements-section-background-image.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+/* Experiences Section Background Image */
+.experiences-items {
+    background: url('path-to-your-experiences-section-background-image.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+/* Projects Section Background Image */
+.projects-items {
+    background: url('path-to-your-projects-section-background-image.jpg') center center no-repeat;
+    background-size: cover;
+}
+.navbar-brand-text {
+    background: linear-gradient(45deg, #D5CEA3, #D5CEA3, #D5CEA3, #D5CEA3, #D5CEA3, #D5CEA3, #D5CEA3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+    font-size: 33px; /* Adjust the font size as needed */
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-top: 210px; /* Add margin to push it down from the top */
+    padding: 100px 0; /* Add padding for better visibility */
+    color: #fff; /* Text color */
+}
+
+body {
+    background-image: url('resumewall.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+/* Set a semi-transparent background for the white sections */
+/* #about-sc,
+.cv-form-blk,
+.preview-cnt-r,
+.preview-blk {
+    background-color: rgba(23, 21, 21, 0.8); /* Adjust the alpha value to control transparency */
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Update the navbar background to make it semi-transparent as well */
+.navbar {
+    background-color: rgba(125, 119, 119, 0.8); /* Adjust the alpha value as needed */
+    padding: 15px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
